@@ -7,7 +7,7 @@ namespace Fi1a\Facade;
 /**
  * Фасад
  */
-abstract class Facade
+abstract class AbstractFacade
 {
     /**
      * Фабричный метод

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Fi1a\Unit\Facade\Fixtures;
 
-use Fi1a\Facade\Facade;
+use Fi1a\Facade\AbstractFacade;
 
 /**
  * Фасад для тестирования
@@ -12,7 +12,7 @@ use Fi1a\Facade\Facade;
  * @method static Foo bar(string $value)
  * @method static string|null getValue()
  */
-class FooFacade extends Facade
+class FooFacade extends AbstractFacade
 {
     /**
      * @inheritDoc
